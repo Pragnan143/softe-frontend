@@ -1,5 +1,5 @@
 import React from "react";
-
+import vector from "../assets/header_right_vector.jpg";
 const HeroSection = () => {
   return (
     <div className="flex h-[100vh] w-full">
@@ -17,7 +17,9 @@ const HeroSection = () => {
           CTA
         </div>
       </div>
-      <div className="flex justify-center items-center">Right</div>
+      <div className="flex ">
+        <img src={vector} alt="menu" />
+      </div>
     </div>
   );
 };

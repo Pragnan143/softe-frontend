@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   const animeHandler = () => {
-    anime != "rotate-0" ? setAnime("rotate-180") : setAnime("rotate-90	");
+    anime !== "rotate-0" ? setAnime("rotate-180") : setAnime("rotate-90	");
   };
 
   return (
@@ -28,7 +28,7 @@ const Navbar = () => {
         <input
           type="text"
           placeholder="search"
-          className="rounded-full flex items-center text-gray-300 px-4 w-[480px] h-10 outline-none"
+          className="rounded-full flex items-center justify-center px-4 w-[480px] h-10 outline-none"
           onChange={(e) => setSearch(e.target.value)}
         />
 
