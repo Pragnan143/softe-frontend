@@ -17,8 +17,8 @@ const HeroSection = () => {
           CTA
         </div>
       </div>
-      <div className="flex ">
-        <img src={vector} alt="menu" />
+      <div className="flex bg-none">
+        <img src={vector} alt="right img" />
       </div>
     </div>
   );
