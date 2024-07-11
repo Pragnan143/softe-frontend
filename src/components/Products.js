@@ -9,8 +9,9 @@ const Products = () => {
           <p>can do for you .</p>
         </div>
       </div>
-      <div className="bg-[#BED1CF] h-[550px] w-screen ">
-        <div className="flex gap-20  px-[50px] pt-[150px] overflow-x-auto">
+      <div className="bg-[#BED1CF] h-[550px] w-full">
+        <div className="flex gap-20  px-[50px] pt-[150px] overflow-x-auto  scroll-smooth no-scrollbar">
+          <Card />
           <Card />
           <Card />
           <Card />

@@ -8,6 +8,7 @@ const Navbar = () => {
 
   const loginHandler = () => {
     // redirect to login page
+    console.log(search);
   };
 
   const animeHandler = () => {
@@ -15,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex bg-[#FFF7F2] h-16 w-full">
+    <div className="flex bg-[#FFF7F2] h-16 w-full sticky top-0 z-50">
       <div className="flex items-center justify-start gap-10 px-10 w-1/2 ">
         <div className={`Menubar w-5 ${anime} `} onClick={animeHandler}>
           <img src={menu} alt="menu" />
