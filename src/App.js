@@ -1,4 +1,5 @@
 import HeroSection from "./components/HeroSection";
+import Marketing from "./components/Marketing";
 import Mentor from "./components/Mentor";
 import Navbar from "./components/Navbar";
 import Products from "./components/Products";
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <Products />
       <Mentor />
+      <Marketing />
     </div>
   );
 }
