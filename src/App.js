@@ -2,6 +2,7 @@ import HeroSection from "./components/HeroSection";
 import Marketing from "./components/Marketing";
 import Mentor from "./components/Mentor";
 import Navbar from "./components/Navbar";
+import OurProducts from "./components/OurProducts";
 import Products from "./components/Products";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Products />
       <Mentor />
       <Marketing />
+      <OurProducts />
     </div>
   );
 }
