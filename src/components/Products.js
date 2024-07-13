@@ -2,11 +2,11 @@ import React from "react";
 import Card from "./Card";
 const Products = () => {
   return (
-    <div className="relative h-screen  flex-col justify-center z-50">
+    <div className="relative h-screen  flex-col justify-center z-40">
       <div className="h-24 font-medium flex items-center justify-center ">
-        <div className="flex flex-col items-center text-4xl py-5 font-medium ">
-          <p>Learn What salesforce products</p>
-          <p>can do for you .</p>
+        <div className="flex flex-col items-center text-4xl py-5 font-medium z-10">
+          <p className="z-10">Learn What salesforce products</p>
+          <p className="z-10">can do for you .</p>
         </div>
       </div>
       {/* <svg

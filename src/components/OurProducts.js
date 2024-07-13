@@ -9,7 +9,7 @@ const OurProducts = () => {
         Our Products
       </p>
       <div className="mx-[350px] my-20 w-[800px] flex items-center justify-around">
-        <div className="h-[50px] w-[180px] bg-[#FF73A2] text-[#FFF7F2] text-xl font-bold flex items-center justify-center overflow-hidden rounded-full">
+        <div className="h-[50px] w-[180px] bg-[#FF73A2] text-[#FFF7F2] text-xl font-bold flex items-center justify-center overflow-hidden rounded-full ">
           <button>For Business</button>
         </div>
         <div className="h-[50px] w-[180px] border-2 border-[#FF73A2] flex items-center text-[#FF73A2] bg-[#FFF7F2] text-xl font-bold justify-center overflow-hidden rounded-full">

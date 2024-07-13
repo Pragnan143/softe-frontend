@@ -5,7 +5,7 @@ import baby from "../assets/left_1_baby.png";
 const Mentor = () => {
   return (
     <div className="h-full relative w-full flex-col items-center justify-center mb-10">
-      <div className="absolute left-[30%]  top-[25%]  flex flex-col items-center text-5xl py-5 font-medium z-50">
+      <div className="absolute left-[30%]  top-[25%]  flex flex-col items-center text-5xl py-5 font-medium z-40 ">
         <p className="tracking-wide">Select what type of mentor want</p>
         <p className="tracking-wide">kids</p>
       </div>
