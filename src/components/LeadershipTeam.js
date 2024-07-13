@@ -12,7 +12,7 @@ const Card = () => {
 };
 const LeadershipTeam = () => {
   return (
-    <div className="h-screen w-full  mb-[400px] relative ">
+    <div className="h-screen w-full  mt-[180px] mb-[400px] relative ">
       {" "}
       <img
         src={Vector}

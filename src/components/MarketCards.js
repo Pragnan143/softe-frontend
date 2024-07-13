@@ -15,7 +15,7 @@ const BigCard = () => {
 };
 const MarketCards = () => {
   return (
-    <div className="mx-40 my-10 flex flex-wrap gap-16 ">
+    <div className="mx-28 my-10 flex flex-wrap gap-10 ">
       <BigCard />
       <SmallCard /> <SmallCard />
       <BigCard />
