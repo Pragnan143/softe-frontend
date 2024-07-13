@@ -4,7 +4,7 @@ import right from "../assets/OurProduct_right.svg";
 import OurProductCards from "./OurProductCards";
 const OurProducts = () => {
   return (
-    <div className="relative my-[150px] h-screen w-full ">
+    <div className="relative mt-[150px] h-screen w-full ">
       <p className="font-bold text-5xl underline decoration-pink-500 underline-offset-8 px-[40%]">
         Our Products
       </p>
@@ -16,10 +16,20 @@ const OurProducts = () => {
           <button>For Individuals</button>
         </div>
       </div>
-      <img src={left} alt="" className="absolute left-0 -bottom-20 z-10" />
-      <div className=" absolute bottom-5 w-full h-[351px] bg-[#BED1CF]  z-20"></div>{" "}
-      <img src={right} alt="" className="absolute right-0 top-12 z-10" />
-      <OurProductCards />
+      <img
+        src={left}
+        alt=""
+        className="absolute left-0 top-[25%] z-10 h-[450px]"
+      />
+      <div className=" absolute top-[38%] w-full h-[246px] bg-[#BED1CF]  z-20"></div>{" "}
+      <img
+        src={right}
+        alt=""
+        className="absolute right-0 top-12 z-10 h-[690px]"
+      />
+      <div className="absolute">
+        <OurProductCards />
+      </div>
     </div>
   );
 };

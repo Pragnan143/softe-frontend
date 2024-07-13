@@ -8,11 +8,11 @@ import Vector5 from "../assets/Vector_5.svg";
 import Vector6 from "../assets/Vector_6.svg";
 import Vector7 from "../assets/Vector_7.svg";
 const Card = () => {
-  return <div className="h-[335px] w-[290px] bg-pink-500 z-40"></div>;
+  return <div className="h-[335px] w-[290px]  bg-pink-500 z-40"></div>;
 };
 const LeadershipTeam = () => {
   return (
-    <div className="h-screen w-full  my-[400px] relative ">
+    <div className="h-screen w-full  mb-[400px] relative ">
       {" "}
       <img
         src={Vector}
