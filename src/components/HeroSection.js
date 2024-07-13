@@ -17,7 +17,7 @@ const HeroSection = () => {
           CTA
         </div>
       </div>
-      <div className="flex bg-none">
+      <div className="flex bg-none select-none	">
         <img src={vector} alt="right img" />
       </div>
     </div>

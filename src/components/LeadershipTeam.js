@@ -14,39 +14,53 @@ const LeadershipTeam = () => {
   return (
     <div className="h-screen w-full  my-[400px] relative ">
       {" "}
-      <img src={Vector} alt="" className="absolute -top-12 left-0 z-10" />
+      <img
+        src={Vector}
+        alt=""
+        className="absolute -top-12 left-0 z-10 select-none	"
+      />
       <img
         src={Vector1}
         alt=""
-        className="absolute -top-20 right-[30%] z-10"
+        className="absolute -top-20 right-[30%] z-10 select-none	"
       />{" "}
-      <img src={Vector2} alt="" className="absolute right-0 top-20  z-10" />{" "}
-      <div className="absolute top-0 h-[200px] w-full bg-[#BED1CF] z-30">
-        <h1 className="z-30">Our Leadership Team</h1>
-        <p>we are all started from scratch to make this webpage</p>
+      <img
+        src={Vector2}
+        alt=""
+        className="absolute right-0 top-20  z-10 select-none	"
+      />{" "}
+      <div className=" absolute top-0 h-[200px] w-full bg-[#BED1CF] z-30 flex flex-col items-center justify-center gap-10">
+        <h1 className="z-30 font-bold text-4xl">Our Leadership Team</h1>
+        <p className="font-medium text-lg">
+          we are all started from scratch to make this webpage
+        </p>
       </div>
-      <img src={Vector3} alt="" className="absolute left-20 top-[40%]  z-10" />{" "}
+      <img
+        src={Vector3}
+        alt=""
+        className="absolute left-20 top-[40%]  z-10 select-none	"
+      />{" "}
       <img
         src={Vector4}
         alt=""
-        className="absolute left-[45%] top-[40%]  z-10"
+        className="absolute left-[45%] top-[40%]  z-10 select-none	"
       />{" "}
       <img
         src={Vector5}
         alt=""
-        className="absolute left-0 -bottom-[30%]  z-10"
+        className="absolute left-0 -bottom-[30%]  z-10 select-none	"
       />{" "}
       <img
         src={Vector6}
         alt=""
-        className="absolute left-[50%] -bottom-[20%]  z-10"
+        className="absolute left-[50%] -bottom-[20%]  z-10 select-none	"
       />{" "}
       <img
         src={Vector7}
         alt=""
-        className="absolute right-0 -bottom-[20%]  z-10"
+        className="absolute right-0 -bottom-[20%]  z-10 select-none	"
       />{" "}
-      <div className=" absolute bottom-0 w-full flex gap-0 justify-evenly z-40">
+      <div className=" absolute bottom-0 w-full flex gap-0 justify-evenly z-40 select-none	">
         <Card />
         <Card />
         <Card />
