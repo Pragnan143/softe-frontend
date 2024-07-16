@@ -8,7 +8,7 @@ import Vector5 from "../assets/Vector_5.svg";
 import Vector6 from "../assets/Vector_6.svg";
 import Vector7 from "../assets/Vector_7.svg";
 const Card = () => {
-  return <div className="h-[335px] w-[290px]  bg-pink-500 z-40"></div>;
+  return <div className="h-[300px] w-[250px]  bg-pink-500 z-40"></div>;
 };
 const LeadershipTeam = () => {
   return (
@@ -17,19 +17,19 @@ const LeadershipTeam = () => {
       <img
         src={Vector}
         alt=""
-        className="absolute -top-12 left-0 z-10 select-none	"
+        className="absolute w-[400px] h-[370px] -top-28 left-0 z-10 select-none	"
       />
       <img
         src={Vector1}
         alt=""
-        className="absolute -top-20 right-[30%] z-10 select-none	"
+        className="absolute h-[350px] w-[230px] -top-20 right-[33.5%] z-10 select-none	"
       />{" "}
       <img
         src={Vector2}
         alt=""
-        className="absolute right-0 top-20  z-10 select-none	"
+        className="absolute right-0 top-12 h-[500px] w-[550px] z-10 select-none	"
       />{" "}
-      <div className=" absolute top-0 h-[200px] w-full bg-[#BED1CF] z-30 flex flex-col items-center justify-center gap-10">
+      <div className=" absolute top-0 h-[140px] w-full bg-[#BED1CF] z-30 flex flex-col items-center justify-center gap-10">
         <h1 className="z-30 font-bold text-4xl">Our Leadership Team</h1>
         <p className="font-medium text-lg">
           we are all started from scratch to make this webpage
@@ -38,17 +38,17 @@ const LeadershipTeam = () => {
       <img
         src={Vector3}
         alt=""
-        className="absolute left-20 top-[40%]  z-10 select-none	"
+        className="absolute left-20 top-[40%] h-[310px] w-[400px] z-10 select-none	"
       />{" "}
       <img
         src={Vector4}
         alt=""
-        className="absolute left-[45%] top-[40%]  z-10 select-none	"
+        className="absolute left-[45%] top-[40%] h-[300px] w-[300px]  z-10 select-none	"
       />{" "}
       <img
         src={Vector5}
         alt=""
-        className="absolute left-0 -bottom-[30%]  z-10 select-none	"
+        className="absolute left-0 -bottom-[20%] h-[370px] w-[400px]  z-10 select-none	"
       />{" "}
       <img
         src={Vector6}
@@ -58,9 +58,10 @@ const LeadershipTeam = () => {
       <img
         src={Vector7}
         alt=""
-        className="absolute right-0 -bottom-[20%]  z-10 select-none	"
+        className="absolute right-0 -bottom-[14%]  z-10 select-none	"
       />{" "}
-      <div className=" absolute bottom-0 w-full flex gap-0 justify-evenly z-40 select-none	">
+      <div className=" absolute top-80 w-full flex gap-0 justify-evenly z-40 select-none	">
+        <Card />
         <Card />
         <Card />
         <Card />

@@ -3,21 +3,21 @@ import logo from "../assets/logo.png";
 import menu from "../assets/menu_btn.png";
 
 const Navbar = () => {
-  const [search, setSearch] = useState("");
+  // const [search, setSearch] = useState("");
   const [anime, setAnime] = useState("rotate-0");
 
   const loginHandler = () => {
     // redirect to login page
-    console.log(search);
+    // console.log(search);
   };
 
   const animeHandler = () => {
-    anime !== "rotate-0" ? setAnime("rotate-180") : setAnime("rotate-90	");
+    anime !== "rotate-0" ? setAnime("rotate-0") : setAnime("rotate-90	");
   };
 
   return (
     // sticky top-0
-    <div className="flex bg-[#FFF7F2] h-16 w-full  z-50">
+    <div className="flex bg-[#FEE3C8] h-16 w-full  z-50">
       <div className="flex items-center justify-start gap-10 px-10 w-1/2 ">
         <div className={`Menubar w-5 ${anime} `} onClick={animeHandler}>
           <img src={menu} alt="menu" />
@@ -26,13 +26,13 @@ const Navbar = () => {
           <img src={logo} alt="softe" />
         </div>
       </div>
-      <div className="flex w-1/2 gap-10 items-center justify-center   ">
-        <input
+      <div className="flex w-1/2 gap-10 items-center justify-end   ">
+        {/* <input
           type="text"
           placeholder="search"
           className="rounded-full flex items-center justify-center px-4 w-[480px] h-10 outline-none"
           onChange={(e) => setSearch(e.target.value)}
-        />
+        /> */}
 
         <div
           onClick={loginHandler}

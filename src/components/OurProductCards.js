@@ -16,7 +16,7 @@ const Cards1 = () => {
 };
 const OurProductCards = () => {
   return (
-    <div className="h-full w-full flex flex-wrap gap-20 justify-around ">
+    <div className="h-full w-full flex flex-wrap gap-24 justify-around ">
       <Cards1 />
       <Cards />
       <Cards />

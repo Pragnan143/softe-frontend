@@ -8,7 +8,7 @@ const OurProducts = () => {
       <p className="font-bold text-5xl underline decoration-pink-500 underline-offset-8 px-[40%]">
         Our Products
       </p>
-      <div className="mx-[350px] my-20 w-[800px] flex items-center justify-around">
+      <div className="mx-[450px] my-20 w-[600px] flex items-center justify-around">
         <div className="h-[50px] w-[180px] bg-[#FF73A2] text-[#FFF7F2] text-xl font-bold flex items-center justify-center overflow-hidden rounded-full ">
           <button>For Business</button>
         </div>
@@ -27,7 +27,7 @@ const OurProducts = () => {
         alt=""
         className="absolute right-0 top-12 z-10 h-[690px]"
       />
-      <div className="absolute">
+      <div className="absolute top-[31.5%]">
         <OurProductCards />
       </div>
     </div>
